@@ -39,3 +39,5 @@ Line 253: units: "Metric"
           units: "Imperial"
           
 Workable Widget Size: Large.
+
+Note: The widget preview is for dev only, so ignore it if see something unusual. 
