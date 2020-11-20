@@ -14,10 +14,10 @@
  */
 
 // To use weather, get a free API key at openweathermap.org/appid and paste it in between the quotation marks.
-const apiKey = "b36b258dad73b10f00dcc79f99525378"
+const apiKey = ""
 
 // Set the locale code. Leave blank "" to match the device's locale. You can change the hard-coded text strings in the TEXT section below.
-let locale = "en"
+let locale = ""
 
 // Set to true for fixed location, false to update location as you move around
 const lockLocation = true
@@ -26,7 +26,7 @@ const lockLocation = true
 const widgetPreview = "large"
 
 // Set to true for an image background, false for no image.
-const imageBackground = true
+const imageBackground = false
 
 // Set to true to reset the widget's background image.
 const forceImageUpdate = false
