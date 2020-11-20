@@ -1,7 +1,7 @@
 # Full-Weatherline-Widget
 
 <p align="center" >
-    <img width="500" alt="Full-Weatherline-Widget" src ="./">
+    <img width="500" alt="Full-Weatherline-Widget" src ="./5964BDCB-2029-4FA1-AE2B-A0CE429662A5.jpeg">
 </p>
 
 A proffesional large Weatherline widget for your glory screen, it has hours of day and 7 days of week with minimal weather info below. Colorful lines for either increase or decrease of your weather at any hour. With dynamic light/dark background or a preferable photo as transparent one. it has localization for any language.
