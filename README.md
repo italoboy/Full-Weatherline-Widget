@@ -6,6 +6,10 @@
 
 A proffesional large Weatherline widget for your glory screen, it has hours of day and 7 days of week with minimal weather info below. Colorful lines for either increase or decrease of your weather at any hour. With dynamic light/dark background or a preferable photo as transparent one. it has localization for any language.
 
+
+
+UPDATED: Now supports offline mode without internet connection.
+
 Instruction:
 
 1. Put your API code from openweathermap.org at Line 14.
