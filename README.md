@@ -13,6 +13,7 @@ Update 1: Now supports offline mode without internet connection.
 Update 2: Opacity has been fixed, go to line 270 to 287.
 
 Update 3: Added 12 hours option, added external redirected link, fixed offline icon size, fixed sunrise and sunset issues and a lot of bug fixes.
+
 Instruction:
 
 1. Put your API code from openweathermap.org at Line 14.
