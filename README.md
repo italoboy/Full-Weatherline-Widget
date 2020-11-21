@@ -12,7 +12,7 @@ Update 1: Now supports offline mode without internet connection.
 
 Update 2: Opacity has been fixed, go to line 270 to 287.
 
-Update 3: Added Medium size, added 12 hour mode, added external redirected link, fixed offline icon size, fixed sunrise and sunset issues and a lot of bug fixes.
+Update 3: Added Medium size, added 12 hour mode, added external  redirected link, fixed offline icon size, fixed sunrise and sunset issues and a lot of bugs fixed. 
 
 Instruction:
 
