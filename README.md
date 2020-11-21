@@ -8,7 +8,8 @@ A proffesional large Weatherline widget for your glory screen, it has hours of d
 
 
 
-UPDATED: Now supports offline mode without internet connection.
+Update 1: Now supports offline mode without internet connection.
+Update 2: Opacity has been fixed, go to line 270 to 287.
 
 Instruction:
 
