@@ -42,7 +42,10 @@ Line 253: units: "Metric"
  7. Line 35: HoursToShow : number > Number of predicted hours to show, Eg: 3 = a total of 4 hours in the widget (Default: 3 for the small widget and 11 for the medium one).
  
 const hoursToShow = 9
+
 const daysToShow = 6   
+          
+          
           
 Workable Widget Size: Large.
 
