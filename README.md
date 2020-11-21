@@ -39,7 +39,7 @@ Line 253: units: "Metric"
           units: "Imperial"
           
           
- 7. Line 35: HoursToShow : number > Number of predicted hours to show, Eg: 3 = a total of 4 hours in the widget (Default: 3 for the small widget and 11 for the medium one).
+ 7. Line 35: HoursToShow : number > Number of predicted hours to show, Eg: 3 = a total of 4 hours in the widget (Default: 3 for the small and 11 for the medium one but to be shown in the Large size only).
  
 const hoursToShow = 9
 
