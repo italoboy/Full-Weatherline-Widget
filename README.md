@@ -14,9 +14,9 @@ Update 2: Opacity has been fixed, go to line 270 to 287.
 
 Update 3: Added Medium size, added 12 hour mode, added external  redirected link, fixed offline icon size, fixed sunrise and sunset issues and a lot of bugs fixed. 
 
-Update 4: Added 12 hour for diagram.
+## Update 4: Added 12 hour for diagram.
 
-Instruction:
+# Instruction:
 
 1. Put your API code from openweathermap.org at Line 14.
 2. Set locale language code at Line 17 (Please pay attention if you set this, the language of "city name" will be in your native language after step 3)
@@ -62,6 +62,6 @@ const daysToShow = 6
           
           
           
-Workable Widget Size: Large, Medium.
+# Workable Widget Size: Large, Medium.
 
-Note: The widget preview is for dev only, so ignore it if see something unusual. 
+# Note: The widget preview is for dev only, so ignore it if see something unusual. 
