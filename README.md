@@ -62,6 +62,6 @@ const daysToShow = 6
           
           
           
-# Workable Widget Size: Large, Medium.
+## Workable Widget Size: Large, Medium.
 
-# Note: The widget preview is for dev only, so ignore it if see something unusual. 
+## Note: The widget preview is for dev only, so ignore it if see something unusual. 
