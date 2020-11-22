@@ -18,7 +18,7 @@ Update 3: Added Medium size, added 12 hour mode, added external  redirected link
 
 # Instruction:
 
-#### 1. Put your API code from openweathermap.org at Line 14.
+#### 1. ###### Put your API code from openweathermap.org at Line 14.
 #### 2. Set locale language code at Line 17 (Please pay attention if you set this, the language of "city name" will be in your native language after step 3)
 #### 3. Turn on your "Location Services" for reading the name of city and for once and forever, you can turn it off after loading.
 #### 4. Screen Size:
