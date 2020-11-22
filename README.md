@@ -25,13 +25,13 @@ Update 3: Added Medium size, added 12 hour mode, added external  redirected link
 
 if you are on large screen dievices such as Pro Max, XS Max, even XR, set the widget size according to:
 
-Line 307: widget.padding = 0
+Line 332: widget.padding = 0
 
 if you are on old and small devices (like me :D ), don't need to change anything.
 
  5. Widget has dynamic background for morning, afternoon and night and for setting this mode, you should do this:
 
-Line 25: const imageBackground = false
+Line 30: const imageBackground = false
 
 And for using your gallery photos as a transparent type, do as:
 
