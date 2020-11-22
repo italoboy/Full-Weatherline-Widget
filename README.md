@@ -56,7 +56,7 @@ const hoursToShow = 9
 const daysToShow = 6   
 
 8. Line 49: 12 Hours : 12 or 24?
-            diagram12Hours = ?!
+    and                diagram12Hours = ?!
 
 9. Line 55: Open Link for adding your preferable link.
           
