@@ -14,6 +14,8 @@ Update 2: Opacity has been fixed, go to line 270 to 287.
 
 Update 3: Added Medium size, added 12 hour mode, added external  redirected link, fixed offline icon size, fixed sunrise and sunset issues and a lot of bugs fixed. 
 
+Update 4: Added 12 hour for diagram.
+
 Instruction:
 
 1. Put your API code from openweathermap.org at Line 14.
@@ -54,6 +56,7 @@ const hoursToShow = 9
 const daysToShow = 6   
 
 8. Line 49: 12 Hours : 12 or 24?
+            diagram12Hours = ?!
 
 9. Line 55: Open Link for adding your preferable link.
           
