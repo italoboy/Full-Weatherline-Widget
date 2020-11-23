@@ -64,4 +64,6 @@ const daysToShow = 6
           
 ## Workable Widget Size: Large, Medium.
 
+Line 28 for selecting each one.
+
 ## Note: The widget preview is for dev only, so ignore it if see something unusual. 
