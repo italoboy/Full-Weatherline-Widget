@@ -16,7 +16,7 @@ Update 3: Added Medium size, added 12 hour mode, added external  redirected link
 
 ## Update 4: Added 12 hour for diagram.
 
-# Instruction:
+# Instructions:
 
  1. Put your API code from openweathermap.org at Line 18.
  2. Set locale language code at Line 21 (Please pay attention if you set this, the language of "city name" will be in your native language after step 3)
