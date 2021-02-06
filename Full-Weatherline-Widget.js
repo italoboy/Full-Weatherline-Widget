@@ -1362,13 +1362,21 @@ async function pressure(column) {
 
    // Requirements: weather and sunrise
   if (!weatherData) { await setupWeather() }
+
+  let unit = " hPa";
+  let currPressure = weatherData.current.pressure;
+  if (weatherSettings.units === "imperial") {
+    currPressure = (currPressure/33.8638).toFixed(2);
+    unit = " inHg";
+  } else {
+    currPressure = Math.round(currPressure);
+  }
  
   // Set up the current weather stack.
   let pressureStack = align(column)
   pressureStack.setPadding(padding, 0, 0, 0)
 //   pressureStack.size = new Size(85, 0);
-  const pressureText = Math.round(weatherData.current.pressure).toString() 
-+" hPa"  
+ const pressureText = currPressure.toString() + unit;
  const pressure = provideText(pressureText, pressureStack, textFormat.databtm)
  pressure.rightAlignText()
 }
