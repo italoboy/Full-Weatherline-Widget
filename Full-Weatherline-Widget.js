@@ -185,7 +185,7 @@ const items = [
 
 	row,
 
-	    column(95),
+	    column(90),
 			left,
 	    	dewpointtxt,
      
@@ -195,7 +195,7 @@ const items = [
 		
 		column(5),
      
-		column(95),
+		column(90),
 			left,
 	    	windtxt,
      	
