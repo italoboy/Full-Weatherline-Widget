@@ -59,6 +59,9 @@ const externalLink = ""
 //define global var
 var night = true
 
+//show alerts
+var showAlerts = false
+
 // accentColor : Color > Accent color of some elements (Graph lines and the location label).
 const accentColor = new Color("#FFB01F", 1)
 const nightColor = new Color("#616363", 1)
@@ -245,6 +248,12 @@ const items = [
 
 	row,
         
+	column(260),
+			left,
+        		alerts,
+	
+	column(5),
+	
         column,
 			right,
 	   		updatedtime,
@@ -303,6 +312,7 @@ const textFormat = {
   databtmtxt:     { size: 10, color: "A5A8A8", font: "regular", opacity: 1},
   updatetxt:     { size: 10, color: "A5A8A8", font: "light", opacity: 1},
   warning:     { size: 12, color: "A5A8A8", font: "bold" },
+  alertstxt:     { size: 10, color: "FFB01F", font: "bold", opacity: 1},
 }
 
 /*
@@ -443,6 +453,7 @@ function provideFunction(name) {
     
 
     updatedtime() { return updatedtime },
+    alerts() { return alerts },
  	  drawdiagramdaily() { return drawdiagramdaily },
  
   }
@@ -842,7 +853,9 @@ async function setupWeather() {
   // Otherwise, use the API to get new weather data.
   } else {
     try {
-      const weatherReq = "https://api.openweathermap.org/data/2.5/onecall?lat=" + locationData.latitude + "&lon=" + locationData.longitude + "&exclude=minutely,alerts&units=" + weatherSettings.units + "&lang=" + locale + "&appid=" + apiKey
+      let exclude = "minutely";
+      if (!showAlerts) exclude = exclude + ",alerts";
+      const weatherReq = "https://api.openweathermap.org/data/2.5/onecall?lat=" + locationData.latitude + "&lon=" + locationData.longitude + "&exclude=" + exclude + "&units=" + weatherSettings.units + "&lang=" + locale + "&appid=" + apiKey
       weatherDataRaw = await new Request(weatherReq).loadJSON()
     } catch(e) {
       const cachePath = files.joinPath(files.documentsDirectory(), "weather-cal-cache")
@@ -1473,6 +1486,28 @@ const updatevar = provideText(updatedText, updatedStack, textFormat.updatetxt)
 
   //const updatevar = provideText(updatedText, updatedStack, textFormat.updated)
 
+}
+
+async function alerts(column) {
+  if (showAlerts) {
+    // Requirements: weather and sunrise
+    if (!weatherData) { await setupWeather() }
+
+    // Show the alerts.
+    const alertStack = align(column);
+    alertStack.setPadding(0, 0, 0, padding);
+
+    if (weatherData.alerts && weatherData.alerts.length > 0) {
+      let alertText = "⚠️" + weatherData.alerts[0].event;
+
+      if (weatherData.alerts.length > 1) {
+        alertText = alertText + " & " + (weatherData.alerts.length - 1) + " more alert";
+        if (weatherData.alerts.length > 2) alertText = alertText + "s";
+      }
+
+      const alert = provideText(alertText, alertStack, textFormat.alertstxt);
+    }
+  }
 }
 
 
