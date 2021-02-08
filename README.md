@@ -14,7 +14,9 @@ Update 2: Opacity has been fixed, go to line 270 to 287.
 
 Update 3: Added Medium size, added 12 hour mode, added external  redirected link, fixed offline icon size, fixed sunrise and sunset issues and a lot of bugs fixed. 
 
-## Update 4: Added 12 hour for diagram.
+Update 4: Added 12 hour for diagram.
+
+## Update 5: Fixed wind units when imperial is used, air pressure to imperial unit and added alerts to be show at the end of widget, all Tnx to webOSpinn.
 
 # Instructions:
 
