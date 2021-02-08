@@ -185,7 +185,7 @@ const items = [
 
 	row,
 
-	    column(95),
+	    column(90),
 			left,
 	    	dewpointtxt,
      
@@ -195,7 +195,7 @@ const items = [
 		
 		column(5),
      
-		column(95),
+		column(90),
 			left,
 	    	windtxt,
      	
@@ -1401,11 +1401,13 @@ console.log("direction " + direction)
   if (direction < 33.75) winddir = "NNO";   
   if (direction < 11.25) winddir = "N";
 
+  let unit = " m/s ";
+  if (weatherSettings.units === "imperial") unit = " mph ";
 
   // Set up the current weather stack.
   let windStack = align(column)
   windStack.setPadding(padding, 0, 0, 0)
-  const windText = Math.round(weatherData.current.wind_speed).toString() +" m/s " + winddir
+  const windText = Math.round(weatherData.current.wind_speed).toString() + unit + winddir
 // const windText = Math.round(weatherData.current.wind_speed).toString() +" m/s "
   const wind = provideText(windText, windStack, textFormat.databtm)
  
