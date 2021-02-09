@@ -18,6 +18,11 @@ Update 4: Added 12 hour for diagram.
 
 ## Update 5: Fixed wind units when imperial is used, air pressure to imperial unit and added alerts to be shown at the end of widget, all Tnx to webOSpinn.
 
+<p align="center" >
+    <img width="500" alt="Full-Weatherline-Widget" src ="./F0D4D313-0456-422F-8D48-D11E46687AB1.png">
+</p>
+
+
 # Instructions:
 
  1. Put your API code from openweathermap.org at Line 18.
