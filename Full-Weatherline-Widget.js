@@ -310,7 +310,7 @@ const textFormat = {
   HiLotemp:     { size: 12, color: "", font: "regular", opacity: 1},
   databtm:     { size: 10, color: "A5A8A8", font: "bold", opacity: 1},
   databtmtxt:     { size: 10, color: "A5A8A8", font: "regular", opacity: 1},
-  updatetxt:     { size: 10, color: "A5A8A8", font: "light", opacity: 1},
+  updatetxt:     { size: 8, color: "A5A8A8", font: "light", opacity: 1},
   warning:     { size: 12, color: "A5A8A8", font: "bold" },
   alertstxt:     { size: 10, color: "FFB01F", font: "bold", opacity: 1},
 }
@@ -1478,7 +1478,7 @@ async function updatedtime(column) {
   
   //console.log("update " +weatherData.update)
 
-  const updatedText = ("Update: " + weatherData.update)
+  const updatedText = ("Update:" + weatherData.update)
 
 
 //    const updatedText = formatTime(new Date(weatherData.update))
