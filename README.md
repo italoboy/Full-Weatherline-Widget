@@ -16,7 +16,9 @@ Update 3: Added Medium size, added 12 hour mode, added external  redirected link
 
 Update 4: Added 12 hour for diagram.
 
-## Update 5: Fixed wind units when imperial is used, air pressure to imperial unit and added alerts to be shown at the end of widget, all Tnx to webOSpinn.
+Update 5: Fixed wind units when imperial is used, air pressure to imperial unit and added alerts to be shown at the end of widget, all Tnx to webOSpinn.
+
+## Update 6: fixed Update time.
 
 <p align="center" >
     <img width="500" alt="Full-Weatherline-Widget" src ="./F0D4D313-0456-422F-8D48-D11E46687AB1.png">
