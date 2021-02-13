@@ -269,7 +269,7 @@ if (widgetPreview === "small" || config.widgetFamily === "small") {
 }
 
 if (widgetPreview === "medium" || config.widgetFamily === "medium") {
-	items.splice(23, 74)
+	items.splice(23, 80)
 }
 
 // SUNRISE
